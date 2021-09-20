@@ -1,0 +1,53 @@
+.rodape{
+	background-color: #004C84;
+	width: 100%;
+	height: 200px;
+	color: #FFF;
+}
+
+#cefet{
+	text-align-last: center;
+	background: #004C84;
+	width: 100%;
+	height: 60px;
+	font-size: 50px;
+	margin-bottom: 10px;
+}
+
+#rp1{
+	float:left;
+    width: 27.33333333333333%;
+    height: 100%;
+    font-size: 17px;
+    line-height: 25px;
+}
+
+#rp2{
+	float:left;
+    width: 27.33333333333333%;
+    height: 100%;
+    text-align: center;
+    font-size: 17px;
+}
+
+#rp3{
+	float:left;
+	width: 27.33333333333333%;
+	height: 100%;
+	text-align: center;
+	font-size: 17px;
+	line-height: 25px;
+}
+
+h1{
+	font-size: 24px;
+}
+
+.logocefet{
+	width: 18%;
+	height: 100%;
+	float:left;
+	font-size: 17px;
+	line-height: 25px;
+	align-items: center;
+}

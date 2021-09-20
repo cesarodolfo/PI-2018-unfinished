@@ -1,0 +1,203 @@
+*{
+	margin: 0;
+  	font-family: "Roboto", sans-serif;
+  	font-size: 15px;
+}
+
+.container {
+  	background-color: #004C84;
+    height: 100%;
+   	width: 100%;
+	position: absolute;
+	align-items: center;
+	float: left;
+}
+
+.cabeçalho {
+	width: 100%;
+  	margin-top: 20px;
+  	text-align-last: center;
+}
+
+.painel{
+	height: 450px;
+   	width: 308px;
+   	margin-left: 20px;
+   	position: relative;
+   	float: left;
+   	background-color: white;
+   	border-right-color: gray;
+   	border-right-width: medium;
+   	border-right-style: solid;
+}
+
+.corpainel{
+	display: flex;
+}
+
+.painel #p1{
+	font-size: 30px;
+}
+
+.painel ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	width: 146px;
+	cursor: default;
+}
+
+.painel ul li{
+	position: relative;
+}
+
+.painel li ul {
+	position: absolute;
+	left: 149px;
+	top: 0;
+	display: none;
+}
+
+.painel ul li a {
+   display: block;
+   text-decoration: none;
+   color: black;
+   background: silver;
+   padding: 5px;
+}
+
+* html ul li { float: left; }
+* html ul li a { height: 1%; }
+
+li:hover ul { display: block;}
+
+ul li a:hover{
+font-weight: bold;
+background: #ccc; }
+
+a{
+	font-size: 17px;
+	background: #f2f2ff;
+	text-align-last: center;
+	text-decoration:none;
+	color: blue;
+}
+
+.div1 {
+	background-color: #FFFFFF;
+	height: 450px;
+	width: 100%;
+}
+
+.div2 {
+	text-align-last: center;
+	height: 50px;
+	width: 100%;
+	border-radius: 20px 20px 0px 0px;
+	font-size: 50px;
+	line-height: 45px;
+	position: relative;
+}
+
+.div3{
+	font-size: 18px;
+	margin-left: 450px;
+}
+
+#rg, #cpf, #formacao, #nivelcurso{
+	border-radius: 5px;
+	line-height: 20px;
+	text-align-last: center;
+	width: 137px;
+	border: 1px solid gray;
+}
+
+#nome, #fixo, #cargo{
+	border-radius: 5px;
+	line-height: 20px;
+	text-align-last: center;
+	width: 40vh;
+	border: 1px solid gray;
+}
+
+button{
+  border: none;
+  border-radius: 5px;
+  background-color: #1da1f2;
+  border-color: #1da1f2;
+  padding: 8px 40px;
+  cursor: pointer;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 20px;
+}
+
+#lado1{
+	float: left;
+	height: 150px;
+}
+
+#lado2{
+	float: left;
+	margin-left: 50px;
+	height: 150px;
+}
+
+.rodape{
+	background-color: #004C84;
+	width: 100%;
+	height: 160px;
+	color: #FFF;
+}
+
+#cefet{
+	text-align-last: center;
+	background: #004C84;
+	width: 100%;
+	height: 60px;
+	font-size: 50px;
+	margin-bottom: 10px;
+}
+
+#rp1{
+	float:left;
+    width: 27.33333333333333%;
+    height: 100%;
+    font-size: 17px;
+    line-height: 25px;
+}
+
+#rp2{
+	float:left;
+    width: 27.33333333333333%;
+    height: 100%;
+    text-align: center;
+    font-size: 17px;
+}
+
+#rp3{
+	float:left;
+	width: 27.33333333333333%;
+	height: 100%;
+	text-align: center;
+	font-size: 17px;
+	line-height: 25px;
+}
+
+h1{
+	font-size: 24px;
+}
+
+.logocefet{
+	width: 18%;
+	height: 100%;
+	float:left;
+	font-size: 17px;
+	line-height: 25px;
+	align-items: center;
+}
+
+a {
+	text-decoration: none;
+}
